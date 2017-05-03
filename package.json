@@ -4,11 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "beefy main.js --browserify -t caching-coffeeify --live"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ramda": "^0.23.0"
+  },
+  "devDependencies": {
+    "caching-coffeeify": "^0.5.1",
+    "coffeeify": "^2.1.0",
+    "minifyify": "^7.3.5"
   }
 }
